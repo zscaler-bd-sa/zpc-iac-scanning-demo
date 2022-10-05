@@ -6,11 +6,10 @@ terraform {
     }
   }
 }
+# All passwords in this repo are used as an example and should not be used in production.
+#
 
 provider "aws" {
   # Configuration options
 }
 
-# All passwords in this repo are used as an example and should not be used in production.
-#
-provider "aws" {}
